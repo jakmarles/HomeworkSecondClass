@@ -5,6 +5,7 @@
     <title>Bootstrap homework</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="design.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -16,66 +17,24 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
-    <style>
-        /* Remove the navbar's default margin-bottom and rounded borders */
-        .navbars {
-            margin-bottom: 0;
-            border-radius: 0;
-            background-color: rgb(122, 122, 122);
-            font-size: medium;
-            background-image: url('https://media.istockphoto.com/photos/perfect-sky-and-ocean-picture-id467367026?k=20&m=467367026&s=612x612&w=0&h=HBytXxkz31s-ZQrTwH3pbCy51Ep0SRScSXkChSUhYWk=');
-        }
 
-        /* Add a gray background color and some padding to the footer */
-        footer {
-            background-color: #ee9c9c;
-            padding: 25px;
-        }
-
-        .jumbotron {
-            font-family: 'Caveat', cursive;
-            background-image: url('https://st3.depositphotos.com/13324256/i/600/depositphotos_169530530-stock-photo-yellow-wallpaper-texture.jpg');
-        }
-
-
-        body {
-            background-image: url('https://st3.depositphotos.com/13324256/i/600/depositphotos_169530530-stock-photo-yellow-wallpaper-texture.jpg');
-        }
-    </style>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="navbars">
-            <a class="navbar-brand">NavBar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="donate.html">Donate</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="toc.html">Terms and Conditions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="news.html">News</a>
-                    </li>
-
-                </ul>
-
+    <nav>
+        <ul class='nav-links'>
+            <div class='navbarss'>
+                <h4> Ilya's Homework <h4>
             </div>
-        </div>
+            <ul class='nav-links'>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="donate.html">Donate </a></li>
+                <li><a href="toc.html">Terms and Conditions</a></li>
+                <li><a href="news.html">News</a></li>
+            </ul>
+
     </nav>
 
     <div class="jumbotron">
@@ -161,7 +120,7 @@
         </div>
     </div><br><br>
 
-    <footer class="container-fluid text-center">
+    <footer class="footer">
         <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
